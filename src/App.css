@@ -1,0 +1,35 @@
+body{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+table{
+  position: relative;
+  border-collapse: collapse; 
+}
+
+th{
+  background: rgb(218, 59, 59);
+  color: white;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 8px 11px 0px rgb(0 0 0 / 60%);
+}
+
+.fav_button{
+  transition: all 3s ease-in-out;
+  background: rgb(218, 59, 59);
+  box-shadow: 0 8px 11px 0px rgb(0 0 0 / 60%);
+}
+
+.fav_button:hover{
+  transform: scale(1.1); 
+}
+
+.fav_icon{
+  transition: all 0.1s ease-in-out; 
+}
+
+.fav_icon:hover{
+  transform: scale(1.1); 
+  cursor: pointer;
+}
