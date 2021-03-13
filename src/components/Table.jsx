@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { MdFavorite, MdFavoriteBorder } from "react-icons/md";
 import { IconContext } from "react-icons";
 import InfiniteScroll from 'react-infinite-scroll-component';
+import ScrollToTop from "react-scroll-to-top";
 
 export default class Table extends React.Component {
     
@@ -14,6 +15,7 @@ export default class Table extends React.Component {
 
         return (
           <div> 
+            <ScrollToTop smooth color="red"/>
             <div className="mt-2">
               <center>
                   { onlyFavourites  === "false" && 
