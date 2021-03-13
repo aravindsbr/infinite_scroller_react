@@ -6,10 +6,6 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 
 export default class Table extends React.Component {
     
-    // nextPath(path) {
-    //   this.props.history.push(path);
-    // }
-    
     render(){
         var { posts, onHandleFavourite, onFetchMoreData, onlyFavourites } = this.props;
         
