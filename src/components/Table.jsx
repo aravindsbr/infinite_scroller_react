@@ -21,7 +21,7 @@ export default class Table extends React.Component {
               { onlyFavourites  === "false" && 
                 <div>
                   <h1><b>List of recent posts</b></h1>
-                  <p><b>Showing {posts.length} posts from the URL</b></p>
+                  <p><b>Showing 1 to {posts.length} posts from the URL</b></p>
                 </div>
               }
               { onlyFavourites  === "true" && 
