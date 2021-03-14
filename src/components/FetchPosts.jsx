@@ -26,13 +26,13 @@ class FetchPosts extends Component {
       
       if ( response.status === 200) {
         const data = await response.json();
-        this.setState({ posts: data, loading: false, errorMessage: "" });
+        this.setState({ posts: data, errorMessage: "" });
       }
       else if( response.status === 404 ) {
-        this.setState({ errorMessage: "URL Not found", loading: false });
+        this.setState({ errorMessage: "URL Not found"});
       }
       else if( response.status === 500 ) {
-        this.setState({ errorMessage: "Internal Server Error", loading: false });
+        this.setState({ errorMessage: "Internal Server Error"});
       }
     }
 
