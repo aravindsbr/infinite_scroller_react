@@ -43,7 +43,7 @@ export default class Table extends React.Component {
                 next={onFetchMoreData} 
                 hasMore={true}
                 >
-                <table className="table">
+                <table className="table table-hover table-responsive">
                   <thead>
                       <tr>
                       <th>User ID</th>

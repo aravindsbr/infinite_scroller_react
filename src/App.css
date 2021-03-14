@@ -2,10 +2,10 @@ body{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-table{
+/* table{
   position: relative;
   border-collapse: collapse; 
-}
+} */
 
 th{
   background: rgb(218, 59, 59);
